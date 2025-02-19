@@ -1,9 +1,9 @@
-fizz_buzz = input("n= ")
-n = int(fizz_buzz)
-for n in fizz_buzz :
-	if (n % 3 == "fizz"):
-		print(n)
-	if (n % 5 == "buzz"):	
-		print(n)
-	else :(n % 3 and 5 == fizz_buzz)
-print(n)
+for x in range(1, 101):
+    if x % 3 == 0 and x % 5 == 0:
+        print("FizzBuzz", end=' ')
+    elif x % 3 == 0:
+        print("Fizz", end=' ')
+    elif x % 5 == 0:
+        print("Buzz", end=' ')
+    else:
+        print(x, end=' ')
