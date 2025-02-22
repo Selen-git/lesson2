@@ -1,4 +1,3 @@
 lst = [ 18, 14, 10, 6, 2 ]
-lst = range() 
+lst = list(range(18, 2, -4))
 print(lst)
-
